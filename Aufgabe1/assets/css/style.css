@@ -1,0 +1,74 @@
+body {
+    color: white;
+    background-color: lightgray;
+    padding: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.GrauerContainer {
+    width: 505px;
+    height: 505px;
+    position: absolute;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border-width: 6px;
+    border-style: solid;
+    border-color: white;
+}
+
+.GrauerContainer P {
+    color: black;
+}
+
+.RahmenPink {
+    width: 495px;
+    height: 300px;
+    position: absolute;
+    margin: -10px;
+    padding: 10px;
+    margin-top: 17px;
+    background-color: white;
+    border-width: 6px;
+    border-style: solid;
+    border-color: pink;
+    border-radius: 2%;
+}
+
+.RahmenBlau {
+    width: 488px;
+    height: 100px;
+    position: absolute;
+    margin: -9px;
+    margin-top: -7px;
+    padding: 10px;
+    padding-top: 10px;
+    background-color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 2%;
+}
+
+span {
+    color: red;
+}
+
+p:nth-child(1) {
+    font-size: 10px;
+}
+
+p:nth-child(2) {
+    font-size: 16px;
+}
+
+p:nth-child(3) {
+    font-size: 10px;
+    background-color: #00bfff;
+}
+
+p:nth-child(5) {
+    font-size: 14px;
+    background-color: #00bfff;
+}

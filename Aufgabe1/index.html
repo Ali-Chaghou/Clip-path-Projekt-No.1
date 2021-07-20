@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>general sibling selector</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="GrauerContainer">
+                <h1>CSS Combinators</h1>
+                <h4>Kombinatoren erklären die Beziehung zwischen zwei oder mehreren selektoren. Beispiele für Kombinatoren sind das Größer- als-Zeichen Pluszeichen "+" und Tilde-Symbol "~". Sie werden verwendet, um dierekte Elemente von Kindern und Geschwistern
+                    zu erfassen
+                </h4>
+                <div class="RahmenPink">
+                    <p><span>Geschwister A </span>Paragraph der sich über denn H2 tag befindet.</p>
+                    <p><span>Geschwister A</span> <b>Allgemeine Geschwisterkombinator</b></p>
+                    <p><span>Geschwister</span>P-Tag der sich unter H2 befindet</p>
+                    <p><span>Geschwister </span> H3 text</p>
+                    <p><span>Geschwister A </span>P-Tag der nach dem H2-Element auftritt. aber keine adjecant (+) sibling selector</p>
+                    <div class="RahmenBlau">
+                        <p><span>Sibling B </span>Paragraph</p>
+                        <p><span>Sibling B</span> h2 das nach dem p-Element kommt, so dass der allgemeine Geschwisterkombinator nihct umgekehrt funktioniert</p>
+                        <p><span>Geschwister A </span>Paragraph der sich über denn H2 tag befindet.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
